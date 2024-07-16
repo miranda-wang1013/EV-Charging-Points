@@ -31,7 +31,7 @@ const SearchBar = ({ searchedLocation }) => {
           searchedLocation(details?.geometry?.location);
         }}
         query={{
-          key: "AIzaSyB_1ucgf9DLsXFmljK2Cee8B-On0qym87I",
+          key: "**",
           language: "en",
         }}
         onFail={(error) => console.error("Google Places API error:", error)}
